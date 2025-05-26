@@ -71,4 +71,13 @@ public class Participantes {
     public void setTelefone(int telefone) {
         this.telefone = telefone;
     }
+
+
+    public Set<Evento> getEventos() {
+        return eventos;
+    }
+
+    public void setEventos(Set<Evento> eventos) {
+        this.eventos = eventos;
+    }
 }

@@ -21,63 +21,69 @@ public class Evento {
     @ManyToMany(mappedBy = "eventos")
     private Set<Participantes> participantes = new HashSet<>();
 
-    public Evento() {
-    }
-
-    public Evento(Long id, String nome, String descricao, String local, Date data, String vagas) {
-        this.id = id;
-        this.nome = nome;
-        this.descricao = descricao;
-        this.local = local;
-        this.data = data;
-        this.vagas = vagas;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
     public Long getId() {
         return id;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public Date getData() {
-        return data;
-    }
-
-    public String getLocal() {
-        return local;
-    }
-
-    public String getVagas() {
-        return vagas;
     }
 
     public void setId(Long id) {
         this.id = id;
     }
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
+    public String getNome() {
+        return nome;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
     }
 
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public Date getData() {
+        return data;
+    }
+
     public void setData(Date data) {
         this.data = data;
+    }
+
+    public String getLocal() {
+        return local;
     }
 
     public void setLocal(String local) {
         this.local = local;
     }
 
+    public String getVagas() {
+        return vagas;
+    }
+
     public void setVagas(String vagas) {
         this.vagas = vagas;
+    }
+
+    public Set<Participantes> getParticipantes() {
+        return participantes;
+    }
+
+    public void setParticipantes(Set<Participantes> participantes) {
+        this.participantes = participantes;
+    }
+
+    public Evento(Long id, String nome, String descricao, Date data, String local, String vagas, Set<Participantes> participantes) {
+        this.id = id;
+        this.nome = nome;
+        this.descricao = descricao;
+        this.data = data;
+        this.local = local;
+        this.vagas = vagas;
+        this.participantes = participantes;
     }
 }
