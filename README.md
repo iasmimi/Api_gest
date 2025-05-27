@@ -71,25 +71,28 @@ Acesse a API
 
 bash
 http://localhost:8080
-🗂️ Estrutura do Projeto
-Api_gest/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── api/
-│   │   │           └── gestao/
-│   │   │               ├── config/       # Configurações do projeto
-│   │   │               ├── controller/   # Endpoints da API
-│   │   │               ├── model/        # Entidades do sistema
-│   │   │               ├── repository/   # Interfaces de banco de dados
-│   │   │               ├── service/      # Regras de negócio
-│   │   │               └── dto/          # Objetos de transferência de dados
-│   │   └── resources/
-│   │       ├── application.properties    # Configurações
-│   │       └── data.sql                  # Dados iniciais (opcional)
-│   └── test/                            # Testes unitários
-└── pom.xml                             # Dependências do Maven
+text
+
+## 🗂 Estrutura do Projeto
+📦 Api_gest
+├── 📂 src
+│ ├── 📂 main
+│ │ ├── 📂 java/com/api/gestao
+│ │ │ ├── 📂 config
+│ │ │ ├── 📂 controller
+│ │ │ │ ├── EventoController.java
+│ │ │ │ └── ParticipanteController.java
+│ │ │ ├── 📂 dto
+│ │ │ ├── 📂 model
+│ │ │ ├── 📂 repository
+│ │ │ ├── 📂 service
+│ │ │ └── ApiGestaoApplication.java
+│ │ └── 📂 resources
+│ │ ├── application.properties
+│ │ └── data.sql
+│ └── 📂 test
+└── pom.xml
+
 🌟 Destaques Técnicos
 Arquitetura limpa com separação clara de responsabilidades
 
