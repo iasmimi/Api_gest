@@ -110,4 +110,5 @@ Adicionar sistema de avaliação de eventos
 Desenvolver front-end para consumo da API
 
 🔚 Considerações Finais
+
 Este projeto foi desenvolvido como parte dos requisitos da disciplina, do curso de desenvolvimento de sistemas 
