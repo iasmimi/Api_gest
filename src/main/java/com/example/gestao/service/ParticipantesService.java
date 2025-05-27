@@ -20,12 +20,11 @@ public class ParticipantesService {
     @Autowired
     private EventoRepository eventoRepository;
 
-    // ✅ Cadastro de participante
+
     public Participantes cadastrarParticipante(Participantes participante) {
         return participantesRepository.save(participante);
     }
 
-    // ✅ Inscrição em evento (com verificação de vagas)
     public String inscreverEmEvento(Long participanteId, Long eventoId) {
         Participantes participante = participantesRepository.findById(participanteId)
                 .orElseThrow(() -> new RuntimeException("Participante não encontrado. ID: " + participanteId));
@@ -71,7 +70,6 @@ public class ParticipantesService {
         return "Inscrição cancelada com sucesso!";
     }
 
-    // ✅ Listar participantes de um evento
     public List<Participantes> listarParticipantesPorEvento(Long eventoId) {
         Evento evento = eventoRepository.findById(eventoId)
                 .orElseThrow(() -> new RuntimeException("Evento não encontrado. ID: " + eventoId));
