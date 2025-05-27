@@ -44,7 +44,16 @@ Esta API tem como objetivo permitir a **criação e gerenciamento de eventos**, 
 
 ### Passos
 
-1. Clone o repositório:
+Clone o repositório:
    ```bash
    git clone https://github.com/SEU_USUARIO/Api_gest.git
    cd Api_gest
+```
+
+## 👤 Contribuidores
+
+- Desenvolvido por [Nicoo200](https://github.com/Nicoo200)
+- Desenvolvido por [Iasmin](https://github.com/iasmimi)
+- Desenvolvido por [Gustavo](https://github.com/GUSTAVOSCARABELLISA)
+- Desenvolvido por []
+
