@@ -55,5 +55,5 @@ Clone o repositório:
 - Desenvolvido por [Nicoo200](https://github.com/Nicoo200)
 - Desenvolvido por [Iasmin](https://github.com/iasmimi)
 - Desenvolvido por [Gustavo](https://github.com/GUSTAVOSCARABELLISA)
-- Desenvolvido por []
+- Desenvolvido por [Rytchelle](https://github.com/Rytchelle/Rytchelle)
 
